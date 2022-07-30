@@ -39,3 +39,9 @@ footer a {
    margin: 20px;
    text-align: center; 
 }
+.container{
+    padding: 0px 50px;
+}
+nav a:hover{
+    color: chartreuse;
+}
