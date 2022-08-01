@@ -34,12 +34,15 @@ td , th{
     padding: 10px;
 }
 thead ,tfoot{
-    background-color: aqua;
-    color: black;
+    background-color:blue;
+    color: beige;
 }
 
 tbody tr:nth-child(odd){
-    background-color: rgba(15, 175, 190, 0.742);
+    background-color: chartreuse;
+}
+tbody th, td{
+    background-color: chartreuse;
 }
 
 td.num{
@@ -50,12 +53,14 @@ caption{
     font-weight:bold ;
     padding: 10px;
     background-color: blue;
+    border-radius: 10px;
 }
 
 
 footer img{
     width: 30px;
     height: 30px;
+    border-radius: 60px;
 
 }
 footer{
