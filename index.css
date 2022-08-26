@@ -27,6 +27,7 @@ h1{
     color: rgb(122, 243, 0);
 }
 table{
+    display: flex;
     width: 600px;
 }
 td , th{
