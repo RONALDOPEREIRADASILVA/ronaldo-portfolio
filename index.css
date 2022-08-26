@@ -26,8 +26,10 @@ header img {
 h1{
     color: rgb(122, 243, 0);
 }
+.tab{
+    text-align: center;
+}
 table{
-    display: flex;
     width: 600px;
 }
 td , th{
