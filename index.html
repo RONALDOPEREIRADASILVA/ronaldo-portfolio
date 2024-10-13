@@ -1,4 +1,4 @@
-<?php include('conexo.php');?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -39,29 +39,7 @@
         <main>
             
             <section>
-                <h1>Deixe um recado!</h1>
-                <form action="adicionar.php" method="post">
-                <textarea name="conteudo" rows="4" cols="50" placeholder="Escreva sua mensagem aqui..."></textarea>
-                <br>
-                <input type="submit" value="Adicionar">
-                </form>
-    
-                <h2>Mensagens:</h2>
-                <?php
-                $sql = "SELECT * FROM mensagens ORDER BY data_criacao DESC";
-                $resultado = $conn->query($sql);
-
-                if ($resultado->num_rows > 0) {
-                   while ($row = $resultado->fetch_assoc()) {
-                    echo "<div><p>" . htmlspecialchars($row['conteudo']) . "</p>";
-                    echo "<small>Enviado em: " . $row['data_criacao'] . "</small></div><hr>";
-                  }
-                } else {
-                  echo "<p>Nenhuma mensagem encontrada.</p>";
-                }
-
-                $conn->close();
-                ?>
+                
                 <h3>Objetivos Profissionais</h3>
                 <p>Ola ,tenho como objetivo me aprofundar como desenvolvedor front-end ,e alcançar o ápse da   minha  carreira como sênio! </p><br>
 
